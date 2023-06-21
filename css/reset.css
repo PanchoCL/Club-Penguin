@@ -51,6 +51,11 @@ table {
 
 /* Mi estilo */
 
+.modo-oscuro {
+	background-color: #222;
+	color: #fff;
+}
+
 hr{
 	border-color: black;
 	border-width: 10px;
@@ -80,6 +85,12 @@ header{
 #mapa{
 	position: relative;
 	top: -30px;
+}
+
+#gif2{
+	position: relative;
+	left: -200px;
+	margin-top: 200px;
 }
 
 #geiser{
@@ -132,6 +143,58 @@ header{
 	margin-right: 60px;
 }
 
-.fa-facebook,.fa-twitter,.fa-instagram{
+.fa-facebook,.fa-twitter,.fa-instagram,.fa-discord{
+	margin: 50px;
 	font-size: 60px;
+	margin-left: 30px;
+}
+
+/* FORMULARIO ESTILO */
+form {
+	width: 300px;
+	margin-left: 900px;
+	margin-top: -400px;
+  }
+
+  label {
+	display: block;
+	margin-top: 10px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+	width: 100%;
+	padding: 5px;
+	margin-top: 5px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+  }
+
+  textarea {
+	height: 100px;
+  }
+
+  button {
+	margin-top: 10px;
+	padding: 10px 20px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+
+  button:hover {
+	background-color: #45a049;
+  }
+
+.Contactanos{
+	margin-top: 200px;
+	margin-bottom: 100px;
+}
+
+#redes{
+	margin-left: -50px;
 }
